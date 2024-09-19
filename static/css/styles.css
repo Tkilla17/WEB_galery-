@@ -1,0 +1,27 @@
+body {
+background-color: rgba(18, 21, 28, 1);
+}
+.bg-image{
+background-size: 100%;
+}
+.bg-trans{
+background-color: rgba(33, 37, 41, 0.8);
+color: white;
+}
+.author{
+text-decoration: underline;
+}
+.fill-page{
+min-height: 80vh;
+}
+.title{
+font-weight: 400;
+font-size: 50px;
+font: Georgia
+}
+.title-desc{
+font-weight: 400;
+}
+.image-title{
+    font: Impact;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн-галерея</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-reboot.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-grid.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+</head>
+<body>
+<nav class="navbar bg-body-tertiary" style="height: 68px">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">
+            <a class="navbar-brand" href="/" style="font-size: 24px">Главная</a>
+        </span>
+    </div>
+</nav>
+    <div class="container fill-page">
+        <div class="row">
+            <div class="col-3 mt-2">
+                <div class="card shadow-sm">
+                    <img src="{{ url_for('static', filename='images/kartinka1.jpg') }}" class="rounded">
+                </div>
+            </div>
+            <div class="col-9 p-5 bg-trans">
+                <h2>Черви</h2>
+                <h3 class="author">Филимонов Дмитрий</h3>
+                <p>80х80см<br>Материалы: холст,акрил<br>Год: 2021<br>Стиль: сюрреализм<br></p>
+                <h4>Цена: 81 500 руб</h4>
+            </div>
+        </div>
+        </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top align-bottom">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted">© 2024 Все права защищены</span>
+        </div>
+    </footer>
+</body>
